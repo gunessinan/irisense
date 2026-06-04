@@ -1,0 +1,6 @@
+**/Podfile linguist-vendored
+**/Podfile linguist-generated=true
+
+**/*.html linguist-vendored
+**/*.html linguist-generated=true
+**/*.html linguist-detectable=false
