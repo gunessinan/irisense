@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irisense - Eye-Tracking Communication System</title>
+    <link rel="icon" type="image/png" href="Pictures/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="Pictures/logo.png" alt="Irisense Logo" class="logo-img">
+            <span>Irisense</span>
+        </div>
+        <div class="nav-links">
+            <a href="#problem" class="lang-en">The Problem</a>
+            <a href="#problem" class="lang-tr tr-content">Sorun</a>
+
+            <a href="#solution" class="lang-en">Solution</a>
+            <a href="#solution" class="lang-tr tr-content">Çözüm</a>
+
+            <a href="#team" class="lang-en">Team</a>
+            <a href="#team" class="lang-tr tr-content">Takım</a>
+
+            <a href="#contact" class="lang-en">Contact</a>
+            <a href="#contact" class="lang-tr tr-content">İletişim</a>
+        </div>
+        <div class="lang-switch" onclick="toggleLanguage()">
+            <div class="lang-slider"></div>
+            <span class="lang-option active" id="lang-en">EN</span>
+            <span class="lang-option" id="lang-tr">TR</span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-bg-text">Irisense</div>
+
+        <div class="hero-content">
+            <h1 class="lang-en">Giving a Voice to the Silence</h1>
+            <h1 class="lang-tr tr-content">Sessizliğe Ses Oluyoruz</h1>
+
+            <p class="lang-en">
+                An AI-powered, low-cost eye-tracking communication system for individuals with
+                <strong>Severe Speech and Motor Impairments (SSMI)</strong>.
+            </p>
+            <p class="lang-tr tr-content">
+                <strong>Şiddetli Konuşma ve Motor Bozukluğu (SSMI)</strong> yaşayan bireyler için
+                yapay zeka destekli, düşük maliyetli bir göz takibi iletişim sistemi.
+            </p>
+
+            <a href="#solution" class="hero-btn lang-en">Discover Project</a>
+            <a href="#solution" class="hero-btn lang-tr tr-content">Projeyi Keşfet</a>
+        </div>
+    </section>
+
+    <section id="problem" class="problem">
+        <h2 class="lang-en">Understanding Severe Speech and Motor Impairments (SSMI)</h2>
+        <h2 class="lang-tr tr-content">Şiddetli Konuşma ve Motor Bozukluklarını (SSMI) Anlamak</h2>
+
+        <div class="problem-content">
+            <img src="Pictures/alperkaya.jpeg" alt="ALS Patient Context" class="problem-img">
+            <div class="problem-text">
+                <p class="lang-en">
+                    <strong>Severe Speech and Motor Impairment (SSMI)</strong> is a condition caused by
+                    neurological disorders such as ALS, brainstem stroke, or high-level spinal cord injuries.
+                    Many individuals experience <em>Locked-in Syndrome</em>, where cognitive abilities remain
+                    fully intact, but voluntary speech and movement are lost.
+                </p>
+
+                <p class="lang-tr tr-content">
+                    <strong>Şiddetli Konuşma ve Motor Bozukluğu (SSMI)</strong>; ALS, beyin sapı felci
+                    veya yüksek seviye omurilik yaralanmaları gibi nörolojik nedenlerle ortaya çıkan
+                    bir durumdur. Birçok birey, zihinsel farkındalığın korunduğu ancak konuşma ve hareketin
+                    kaybedildiği <em>Locked-in Sendromu</em> yaşar.
+                </p>
+
+
+
+                <p class="lang-en">
+                    Most existing assistive communication systems rely on expensive, proprietary hardware
+                    and complex calibration processes. This creates a severe accessibility barrier,
+                    especially for patients in low- and middle-income regions.
+                </p>
+
+                <p class="lang-tr tr-content">
+                    Mevcut destekleyici iletişim sistemlerinin çoğu pahalı, özel donanımlar ve karmaşık
+                    kalibrasyon süreçlerine dayanır. Bu durum özellikle düşük ve orta gelirli bölgelerde
+                    yaşayan hastalar için ciddi bir erişim engeli oluşturur.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="solution" class="project-summary">
+        <h2 class="lang-en">Our Solution: Irisense</h2>
+        <h2 class="lang-tr tr-content">Çözümümüz: Irisense</h2>
+
+        <p class="lang-en">
+            We have developed a mobile application that turns any standard smartphone into a powerful eye-tracking
+            communication device. It requires <strong>no extra hardware</strong> and uses the front camera to track eye
+            movements with high precision.
+        </p>
+        <p class="lang-tr tr-content">
+            Herhangi bir standart akıllı telefonu güçlü bir göz takip cihazına dönüştüren mobil bir uygulama
+            geliştirdik. <strong>Ek donanım gerektirmez</strong> ve yüksek hassasiyetle göz hareketlerini takip etmek
+            için ön kamerayı kullanır.
+        </p>
+
+        <p class="lang-en">
+            By integrating Large Language Models (LLM) like Gemini and ChatGPT, users don't just type letter-by-letter.
+            They select keywords, and our AI generates full, context-aware sentences to be spoken aloud.
+        </p>
+        <p class="lang-tr tr-content">
+            Gemini ve ChatGPT gibi Büyük Dil Modellerini (LLM) entegre ederek, kullanıcıların sadece harf harf
+            yazmasının önüne geçtik. Kullanıcılar anahtar kelimeleri seçer, yapay zekamız bağlama uygun tam cümleler
+            oluşturur ve seslendirir.
+        </p>
+
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide">
+                    <img class="lang-en" src="Pictures/InterfaceSS/EN/settingstab.jpeg" alt="Settings Tab Interface">
+                    <img class="lang-tr tr-content" src="Pictures/InterfaceSS/TR/settingstab.jpeg"
+                        alt="Ayarlar Sekmesi Arayüzü">
+                </div>
+                <div class="slide">
+                    <img class="lang-en" src="Pictures/InterfaceSS/EN/keyboardtab.jpeg" alt="Keyboard Tab Interface">
+                    <img class="lang-tr tr-content" src="Pictures/InterfaceSS/TR/keyboardtab.jpeg"
+                        alt="Klavye Sekmesi Arayüzü">
+                </div>
+                <div class="slide">
+                    <img class="lang-en" src="Pictures/InterfaceSS/EN/visualtab.jpeg" alt="Visual Tab Interface">
+                    <img class="lang-tr tr-content" src="Pictures/InterfaceSS/TR/visualtab.jpeg"
+                        alt="Görsel Sekmesi Arayüzü">
+                </div>
+                <div class="slide">
+                    <img class="lang-en" src="Pictures/InterfaceSS/EN/socialtabdm.jpeg" alt="Social Tab Interface">
+                    <img class="lang-tr tr-content" src="Pictures/InterfaceSS/TR/socialtabdm.jpeg"
+                        alt="Sosyal Sekmesi Arayüzü">
+                </div>
+            </div>
+            <button class="slider-btn prev-btn" id="prevBtn" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="slider-btn next-btn" id="nextBtn" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <!-- Project Demo Video -->
+        <div class="video-container">
+            <h3 class="lang-en">Project Presentation Video</h3>
+            <h3 class="lang-tr tr-content">Proje Sunum Videosu</h3>
+            <a href="https://youtu.be/Wpmw44D--94" target="_blank" class="video-preview-link">
+                <div class="video-preview-wrapper">
+                    <img src="https://img.youtube.com/vi/Wpmw44D--94/maxresdefault.jpg" alt="Irisense Video Thumbnail"
+                        class="video-thumbnail">
+                    <div class="play-overlay">
+                        <div class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="technical">
+        <h2 class="lang-en">Technical Architecture</h2>
+        <h2 class="lang-tr tr-content">Teknik Mimari</h2>
+
+        <div class="tech-grid"></div>
+    </section>
+
+    <section class="achievements">
+        <h2 class="lang-en">Awards & Recognition</h2>
+        <h2 class="lang-tr tr-content">Ödüller ve Başarılar</h2>
+
+        <div class="badge-container"></div>
+    </section>
+
+    <section id="team" class="team">
+        <h2 class="lang-en">Meet the Team</h2>
+        <h2 class="lang-tr tr-content">Takımla Tanışın</h2>
+        <div class="team-container"></div>
+
+        <!-- Advisor Teacher Card -->
+        <div class="advisor-container"></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="lang-en">Contact Us</h2>
+        <h2 class="lang-tr tr-content">İletişim</h2>
+        <p class="lang-en">For inquiries, technical details, or collaboration.</p>
+        <p class="lang-tr tr-content">Sorular, teknik detaylar veya işbirliği için.</p>
+
+        <div class="contact-grid">
+            <!-- Email Card -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </div>
+                <h3 class="lang-en">Email Us</h3>
+                <h3 class="lang-tr tr-content">E-posta Gönder</h3>
+                <p class="lang-en">Reach out for collaborations, support, or general inquiries.</p>
+                <p class="lang-tr tr-content">İşbirlikleri, genel sorular veya destek talepleri için yazın.</p>
+                <a href="mailto:team.irisense@gmail.com" class="contact-btn">team.irisense@gmail.com</a>
+            </div>
+
+            <!-- ISEF Project Card -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                        <line x1="12" y1="11" x2="12" y2="17"></line>
+                        <line x1="9" y1="14" x2="15" y2="14"></line>
+                    </svg>
+                </div>
+                <h3 class="lang-en">ISEF Project</h3>
+                <h3 class="lang-tr tr-content">ISEF Projesi</h3>
+                <p class="lang-en">Explore our academic abstract, research notes, and presentation materials.</p>
+                <p class="lang-tr tr-content">Regeneron ISEF platformundaki akademik özetimizi ve sunumlarımızı
+                    inceleyin.</p>
+                <a href="https://isef.net/project/sftd003t-accessible-ai-eye-tracking-aac-app-for-ssmi" target="_blank"
+                    class="contact-btn lang-en">View Project
+                    Board</a>
+                <a href="https://isef.net/project/sftd003t-accessible-ai-eye-tracking-aac-app-for-ssmi" target="_blank"
+                    class="contact-btn lang-tr tr-content">Proje
+                    Sayfasını Gör</a>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="lang-en">GitHub</h3>
+                <h3 class="lang-tr tr-content">GitHub</h3>
+                <p class="lang-en">Access our open-source code, libraries, and development logs.</p>
+                <p class="lang-tr tr-content">Açık kaynak kodlarımıza, kütüphanelerimize ve loglarımıza ulaşın.</p>
+                <a href="https://github.com/gunessinan/irisense" target="_blank" class="contact-btn lang-en">View
+                    Repository</a>
+                <a href="https://github.com/gunessinan/irisense" target="_blank"
+                    class="contact-btn lang-tr tr-content">Depoyu Görüntüle</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Irisense Project. All Rights Reserved.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
